@@ -1,0 +1,87 @@
+@import url(reset.css);
+body{
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    background: #0C151D;
+    color: #fff;
+    line-height: 1.4;
+}
+.conteiner {
+    width: 1200px;
+    margin: 0 auto;
+}
+.header {
+text-align: center;
+padding: 36px 0 82px;
+}
+.header-photo {
+    width: 215px;
+    height: 215px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.header-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.header-tittle{
+    margin: 30px 0 0;
+    font-weight: 500;
+    font-size: 46px;
+    color: #F1F2F4;
+}
+.header-tittle+p{
+    color: #A3ABB2;
+    margin: 10px 0 0;
+}
+.header-description {
+    margin: 10px 0 0;
+    font-weight: 500;
+}
+.header-achievements{
+    font-weight: 500;
+}
+.header-years{
+    margin: 40px 0 0;
+}
+.header-projects,
+.header-customers{
+    margin: 5px 0 0
+}
+.header-links{
+    margin: 40px 0 0;
+    line-height: 25px;
+    font-weight: 700;
+}
+.header-links a{
+    color: #FFE482;
+}
+a{
+    margin-right: 25px;
+}
+.main{
+    text-align: center;
+}
+.main section{
+    padding: 22px 0 58px;
+}
+.main h2{
+    font-weight: 500;
+    font-size: 37px;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+}
+.main p{
+    font-weight: 500;
+    font-size: 22px;
+}
+.main-section{
+    background: #FFE482;
+    color: #3D3D3D;
+}
+.footer{
+    text-align: center;
+    padding: 50px 0 50px;
+}
