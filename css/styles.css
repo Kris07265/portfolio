@@ -65,7 +65,7 @@ a{
 .main{
     text-align: center;
 }
-.main section{
+.main>section{
     padding: 22px 0 58px;
 }
 .main h2{
